@@ -28,3 +28,5 @@ Across 400 simulated samples, the classical 95 interval covered the true slope i
 Deleting one row out of 600 caused the slope to move 0.58 of its own standard error, while the standard error fell 33.
 
 In the California Housing regression, the HC3 standard error on AveRooms was 5.02 times the classical one.
+
+My custom hc3_se() function found that the HC3 standard error on AveRooms was 0.0121 with all districts and 0.0082 without the 965 districts sitting at the 5.0 ceiling.
